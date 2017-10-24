@@ -33,7 +33,7 @@ var formatContact = function(contacts)
 	var sName = " ";
 	//console.log("NAME");
 	//console.log(sName);
-	var sMobilePhone = "";
+	var sMobilePhone = " ";
 	var OpptyName = contacts[0].get("Name");
 	var OpptyAmount = contacts[0].get("Amount");
 	
