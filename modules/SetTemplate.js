@@ -30,7 +30,7 @@ var formatContact = function(contacts)
 	console.log("REACHED ST");
 	var responsetext = "Hello";
 	console.log(contacts[0]);
-	var sName = "";
+	var sName = " ";
 	//console.log("NAME");
 	//console.log(sName);
 	var sMobilePhone = "";
