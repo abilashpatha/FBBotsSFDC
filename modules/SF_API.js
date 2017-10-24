@@ -29,14 +29,14 @@ connection.authenticate({ username: SFusername, password: SFpassword }, function
  var IntialIntract = function(Id)
 {
 	return new Promise(function(resolve, reject){
-	connection.query({query: "SELECT Name, Amount, ContactId__r.Name, ContactId__r.MobilePhone FROM Opportunity where ContactId__r.Id ='0031a000007h6H9AAI'" }, function(err, res) 
+	connection.query({query: "SELECT Name, Amount FROM Opportunity where Id ='0067F000004YR3c'" }, function(err, res) 
 			{
 	    if(err)
 	    { console.error(err);
 	    	reject("AnError Occured");}
 	    	    else { 
 	    	    	var contact = res;
-	    	    	console.log("QUERY RESULT");
+	    	    	console.log("QUERY RESULT IS");
 	    	    	console.log(contact);
 	   resolve(res.records);
 	   }
