@@ -2,17 +2,17 @@
 var bodyParser = require('body-parser');
 var nForceAuth = require('nforce'),
 Promise = require('promise'),
-SFclientId ='3MVG9sG9Z3Q1Rlbf.rH3WjK5kIQQ37M7ioDSWxIR7C9epVVEd6HIRyKKfLobJ_DFfX9MLmS3jvW9DUZKPTm4S',
-SFSecret ='3567212960861136536',
-SFusername ='jairaj@gmail.com',
-SFpassword ='Shinsei1'
+SFclientId ='3MVG9d8..z.hDcPIiJoaFcNQCdDyqq1f3adQwoqOsXEy74V5w4npSVjEP5NmM79Ik2Kpap14NB2zvZzp2E4eZ',
+SFSecret ='3105483709603369657',
+SFusername ='feuji@connect123.com.dev',
+SFpassword ='login@123'
 ;
 
 var AccessToken = '';
 var connection = nForceAuth.createConnection({
 	clientId: SFclientId,
 	clientSecret: SFSecret,
-	redirectUri: 'http://localhost:3000/oauth/_callback',
+	redirectUri: 'https://feuji-testing.herokuapp.com/facebook',
 	mode: 'single',
 	autoRefresh:true});
 
