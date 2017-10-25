@@ -50,6 +50,7 @@ exports.webhookGet = function(req,res)
 		    res.sendStatus(400);
 		    
 		  }
+	console.log("Get method first");
 };
 
 exports.webhookPost = function(req,res)
